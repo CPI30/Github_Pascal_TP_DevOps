@@ -1,7 +1,9 @@
 import json
+import os
 
-# ----- 1. Charger le fichier servers.json -----
-with open("servers.json", "r") as fichier:
+chemin = os.path.join(os.path.dirname(__file__), "servers.json")
+
+with open(chemin, "r") as fichier:
     serveurs = json.load(fichier)
 
 print("===== 1. Liste des serveurs =====")
