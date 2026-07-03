@@ -1,0 +1,42 @@
+name: CI/CD DevOps
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Récupération du dépôt
+      uses: actions/checkout@v4
+
+    - name: Installation de Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Installation des dépendances
+      run: |
+        pip install -r requirements.txt
+
+    - name: Donner les droits aux scripts Bash
+      run: |
+        chmod +x bash/identifie_port.sh
+        chmod +x bash/menu.sh
+
+    - name: Exécution identifie_port.sh
+      run: |
+        bash bash/identifie_port.sh
+
+    - name: Exécution menu.sh
+      run: |
+        printf "4\n" | bash bash/menu.sh
+
+    - name: Exécution du script Python
+      run: |
+        python python/servers_manager.py
