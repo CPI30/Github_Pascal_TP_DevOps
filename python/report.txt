@@ -1,0 +1,9 @@
+RAPPORT DES SERVEURS CRITIQUES
+==============================
+srv-web-02 : CPU > 80%
+srv-db-01 : RAM > 80%
+srv-db-02 : serveur down
+srv-app-01 : CPU > 80%, RAM > 80%
+srv-proxy-01 : serveur down
+srv-mail-01 : RAM > 80%
+srv-test-01 : serveur down

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "srv-web-01",
+    "ip": "192.168.1.10",
+    "os": "Ubuntu 22.04",
+    "region": "eu-west-1",
+    "status": "up",
+    "cpu_usage": 45,
+    "ram_usage": 60
+  },
+  {
+    "name": "srv-web-02",
+    "ip": "192.168.1.11",
+    "os": "Ubuntu 22.04",
+    "region": "eu-west-1",
+    "status": "up",
+    "cpu_usage": 88,
+    "ram_usage": 76
+  },
+  {
+    "name": "srv-db-01",
+    "ip": "192.168.1.20",
+    "os": "Debian 12",
+    "region": "eu-west-1",
+    "status": "up",
+    "cpu_usage": 52,
+    "ram_usage": 84
+  },
+  {
+    "name": "srv-db-02",
+    "ip": "192.168.1.21",
+    "os": "Debian 12",
+    "region": "eu-central-1",
+    "status": "down",
+    "cpu_usage": 0,
+    "ram_usage": 0
+  },
+  {
+    "name": "srv-cache-01",
+    "ip": "192.168.2.10",
+    "os": "CentOS 9",
+    "region": "eu-central-1",
+    "status": "up",
+    "cpu_usage": 30,
+    "ram_usage": 40
+  },
+  {
+    "name": "srv-app-01",
+    "ip": "192.168.2.20",
+    "os": "Ubuntu 20.04",
+    "region": "us-east-1",
+    "status": "up",
+    "cpu_usage": 95,
+    "ram_usage": 90
+  },
+  {
+    "name": "srv-app-02",
+    "ip": "192.168.2.21",
+    "os": "Ubuntu 20.04",
+    "region": "us-east-1",
+    "status": "up",
+    "cpu_usage": 60,
+    "ram_usage": 55
+  },
+  {
+    "name": "srv-proxy-01",
+    "ip": "192.168.3.10",
+    "os": "Alpine 3.18",
+    "region": "us-east-1",
+    "status": "down",
+    "cpu_usage": 0,
+    "ram_usage": 0
+  },
+  {
+    "name": "srv-monitoring-01",
+    "ip": "192.168.3.20",
+    "os": "Ubuntu 22.04",
+    "region": "ap-southeast-1",
+    "status": "up",
+    "cpu_usage": 22,
+    "ram_usage": 35
+  },
+  {
+    "name": "srv-backup-01",
+    "ip": "192.168.3.30",
+    "os": "Debian 11",
+    "region": "ap-southeast-1",
+    "status": "up",
+    "cpu_usage": 15,
+    "ram_usage": 20
+  },
+  {
+    "name": "srv-mail-01",
+    "ip": "192.168.4.10",
+    "os": "Ubuntu 22.04",
+    "region": "eu-west-1",
+    "status": "up",
+    "cpu_usage": 70,
+    "ram_usage": 82
+  },
+  {
+    "name": "srv-test-01",
+    "ip": "192.168.4.20",
+    "os": "CentOS 9",
+    "region": "eu-central-1",
+    "status": "down",
+    "cpu_usage": 0,
+    "ram_usage": 0
+  },
+  {
+    "name": "srv-new-01",
+    "ip": "192.168.5.10",
+    "os": "Ubuntu 24.04",
+    "region": "eu-west-1",
+    "status": "up",
+    "cpu_usage": 10,
+    "ram_usage": 25
+  }
+]
